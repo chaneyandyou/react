@@ -1,8 +1,12 @@
+/*
+ * @Author: duxianwei
+ * @Date: 2017-07-03 15:11:55
+ * @Last Modified by:   duxianwei
+ * @Last Modified time: 2017-07-03 15:11:55
+ */
 import houseCheck from './houseCheck'
 import houseManage from './houseManage'
-import houseDetail from './houseDetail'
-import roomDetail from './roomDetail'
 
 export {
-    houseCheck, houseManage, houseDetail, roomDetail,
+    houseCheck, houseManage,
 }

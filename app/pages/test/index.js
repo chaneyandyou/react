@@ -1,8 +1,14 @@
+/*
+ * @Author: dupi
+ * @Date: 2017-06-29 15:34:19
+ * @Last Modified by: dupi
+ * @Last Modified time: 2017-06-29 15:39:44
+ */
+
 import React, { Component } from 'react'
 import ReactDom from 'react-dom'
 import { connect } from 'react-redux'
-import Panel from 'components/panel'
-import { Form, Input, Tooltip, Icon, Cascader, Select, Row, Col, Checkbox, Button } from 'antd'
+import { Cascader, Select, Row, Col, Checkbox, Button } from 'antd'
 
 
 import Sub from './sub'
@@ -16,25 +22,24 @@ import Sub from './sub'
 export default class popCheck extends Component {
   constructor(props) {
     super(props)
-    this.state = { 
-      show: true
+    this.state = {
+      show: true,
     }
   }
 
   componentDidMount() {
-    
-
+    console.log(this.props)
   }
 
 
-
-  
   render() {
     return (
-      <Panel>
+      <div className="page">
         测试
-        <Sub/>
-      </Panel>
+        <span>weorwe</span>
+        <img src="../../images/default.png" />
+        <Sub />
+      </div>
     )
   }
 }
